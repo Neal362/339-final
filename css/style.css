@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.header {
+    min-height: 100vh;
+    width:100%;
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+      
+}
+.beer_header{
+
+    min-height: 100vh;
+    width:100%;
+    background-image: url('../images/beer2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+    
+
+}
+.beer {
+    min-height: 100vh;
+    width: 100%;
+    /*background-image: url('../images/beer2.jpg');*/
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.wine_header {
+    min-height: 100vh;
+    width:100%;
+    background-image: url('../images/wine2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.shot_header {
+    min-height: 100vh;
+    width:100%;
+    background-image: url('../images/ra2fdp1suuwlgucm2tjfog.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img{
+    width: 100px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 60px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 25px;
+}
+
+.page-1 {
+    width: 90%;
+    color: black;
+    position: absolute;
+}
+
+.page-1 h1 {
+    font-size: 60px;
+}
+
+.page-1 p {
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: black;
+}
+
+.row {
+    display: flex;
+    grid-gap: 15px;
+    box-sizing:border-box;
+    justify-content: center;
+    margin-top: 520px;
+    margin-left: 120px;
+    border-radius: 15px;
+}
+
+.i1 {
+    border-radius: 15px;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 10px;
+
+
+}
+
+.image-wrap{
+    width: 20%;
+    height: 250px;
+    position:absolute;
+    bottom: 10px;
+    
+
+}
+
+.row img {
+
+    width: 30%;
+    /*height: auto;*/
+    
+
+}
+
+.beer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.box_container{
+    display:grid;
+    grid-template-columns: 20px auto 20px;
+    grid-auto-rows: 600px;
+    justify-content: center;
+    margin-left:-55%;
+    
+}
+.wine {
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-auto-rows: 300px 300px;
+    gap: 15px;
+    
+    
+}
+.shot {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: whitesmoke;
+    width: 175px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image {
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+    background-image: url('../images/bjug.jpg'); 
+}
+.car-2 {
+    background-image: url('../images/blep.jpg'); 
+}
+.car-3 {
+    background-image: url('../images/Ashleys.JPG'); 
+}
+.car-4 {
+    background-image: url('../images/chilis.jpg'); 
+}
+.car-5 {
+    background-image: url('../images/haymakers.jpg'); 
+}
+.car-6 {
+    background-image: url('../images/jollypumpkin.jpg'); 
+}
+.car-7 {
+    background-image: url('../images/BillsBeerGarden.jpg'); 
+}
+
+.car-8 {
+    background-image: url('../images/paesano.jpg'); 
+}
+.car-9 {
+    background-image: url('../images/Vinology.jpg'); 
+}
+.car-10 {
+    background-image: url('../images/knights.jpg'); 
+}
+.car-11 {
+    background-image: url('../images/theearle.JPG'); 
+}
+.car-12 {
+    background-image: url('../images/grotto.jpg'); 
+}
+.car-13 {
+    background-image: url('../images/aventura.jpg'); 
+}
+.car-14 {
+    background-image: url('../images/Ricks_American_Cafe.jpg'); 
+}
+.car-15 {
+    background-image: url('../images/scorekeepers.jpg'); 
+}
+.car-16 {
+    background-image: url('../images/LIVE.jpg'); 
+}
+.car-17 {
+    background-image: url('../images/biercamp.jpg'); 
+}
+.car-18 {
+    background-image: url('../images/townies.jpg'); 
+}
+.car-19 {
+    background-image: url('../images/york.jpg'); 
+}
+.car-20 {
+    background-image: url('../images/spencer.jpg'); 
+}
+.car-21 {
+    background-image: url('../images/Taste.jpg'); 
+}
+.car-22 {
+    background-image: url('../images/zola.jpg'); 
+}
+.logoshape {
+    border: gray solid;
+    border-width: 10px;
+}
+
+.logoshape-1 {
+    border: gold solid;
+    border-width: 10px;
+}
+.logoshape-2 {
+    border: darkred solid;
+    border-width: 10px;
+}
+.logoshape-3 {
+    border: wheat solid;
+    border-width: 10px;
+}
+.footer{
+  background-color: #24262b;
+  padding: 10px 0;
+ }
+ .footercontainer {
+    max-width: 1990px;
+    margin: auto;
+ }
+ .footerrow{
+    display: flex;
+    flex-wrap: wrap;
+ }
+.footer-col{
+    width:25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.card:hover{
+    background-color: #24262b;
+
+}
+
